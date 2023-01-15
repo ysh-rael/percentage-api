@@ -1,5 +1,5 @@
 import Express from 'express'
-import {$transformByObj, $transformByURL} from './src/routers/main.js'
+import {$transformByObj, $transformByURL} from './routers/main.js'
 
 const port = process.env.port || 3006
 const app = Express()
