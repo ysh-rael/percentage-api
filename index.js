@@ -7,5 +7,6 @@ app.use(Express.json())
 
 app.post('/transformbyobj', $transformByObj)
 app.post('/transformbyurl', $transformByURL)
+app.get('/', (req,res) => res.send({}))
 
 app.listen(port , () => console.info(`🚀 Running in port ${port}`,))
