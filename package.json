@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/index.js",
-    "start:dev": "node src/index.js",
-    "start:dev-nodemon": "nodemon src/index.js",
+    "start": "node index.js",
+    "start:dev": "node src/indexDev.js",
+    "start:dev-nodemon": "nodemon src/indexDev.js",
     "build": "gulp"
   },
   "type": "module",

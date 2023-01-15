@@ -4,7 +4,7 @@ import uglify from 'gulp-uglify';
 
 
 export default function (cb) {
-    return src('src/**/*.js')
+    return src('routers/**/*.js')
         .pipe(uglify())
         .pipe(dest('dist'))
 }
