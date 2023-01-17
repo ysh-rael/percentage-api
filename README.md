@@ -7,12 +7,18 @@
 Here are the technologies used in this project.
  
 
+* axios v1.2.2,
+* express v4.18.2
 * Node/JavaScript
 
 
 under development
+* eslint v8.31.0
+* gulp v4.0.2
 * NodeJs v16.18.1
 * npm v8.19.2
+
+
 
  
  
@@ -27,6 +33,8 @@ under development
 ## Getting started
  
 * To Download:
+
+Use a tool of your choice, I'll be using 'wget'.
 
 >	Ubuntu, Debian, Mint, others:<br>
 	  ```
