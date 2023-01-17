@@ -30,26 +30,33 @@ under development
 
 >	Ubuntu, Debian, Mint, others:<br>
 	  ```
-	 	 sudo apt-get install wget
+sudo apt-get install wget
 	  ```
 
 >	Fedora, CentOS:<br>
 	```
-		dnf install wget
+dnf install wget
 	```<br>
 	```
-		yum install wget
+yum install wget
 	```
 
 >	openSUSE:<br>
 	```
-		zypper install wget
+zypper install wget
 	```
 
 >	after installing:<br>
 	```
-		wget https://github.com/ysh-rael/percentage-api/archive/refs/heads/main.zip
+wget https://github.com/ysh-rael/percentage-api/archive/refs/heads/main.zip
 	```
+* Or clone this repository:
+
+> URL<br>
+	```
+git clone https://github.com/ysh-rael/percentage-api.git
+	```
+
 
 ## How to use
  
