@@ -1,8 +1,8 @@
 # Percentage-api
-... ..........
-..... .......
-....... .....
-.......... ...
+<p>
+	Api Criada em node para percentuar valores obtidos através de um objeto/JSON, considerando os elementos como fragmentos de um todo.
+	(É subentendido que se refere a soma dos fragmentos.)
+</p>
 
 Here are the technologies used in this project.
  
@@ -91,7 +91,7 @@ git clone https://github.com/ysh-rael/percentage-api.git
  
 ## Versioning
  
-![Version](https://img.shields.io/github/package-json/v/ysh-rael/percentage-api/main?color=yellow&logo=v&logoColor=blue&style=for-the-badge)
+![Version](https://img.shields.io/github/package-json/v/ysh-rael/percentage-api/main?color=yellow&style=for-the-badge)
  
 ## License
 
