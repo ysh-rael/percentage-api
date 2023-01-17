@@ -1,7 +1,6 @@
 # Percentage-api
 <p>
-	Api Criada em node para percentuar valores obtidos através de um objeto/JSON, considerando os elementos como fragmentos de um todo.
-	(É subentendido que se refere a soma dos fragmentos.)
+	Api Created in node for percentage values obtained through an object/JSON, considering the elements as fragments of a whole. It is understood that the whole refers to the sum of the fragments.
 </p>
 
 Here are the technologies used in this project.
@@ -12,7 +11,7 @@ Here are the technologies used in this project.
 * Node/JavaScript
 
 
-under development
+Under development
 * eslint v8.31.0
 * gulp v4.0.2
 * NodeJs v16.18.1
@@ -34,7 +33,7 @@ under development
  
 * To Download:
 
-Use a tool of your choice, I'll be using 'wget'.
+Use a tool of your choice, paste(or click in link) <code>https://github.com/ysh-rael/percentage-api/archive/refs/heads/main.zip</code> into your browser's search engine. I will be using 'wget' as a suggested download tool.
 
 >	Ubuntu, Debian, Mint, others:<br>
 	  ```
