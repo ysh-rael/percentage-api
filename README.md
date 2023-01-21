@@ -66,13 +66,18 @@ git clone https://github.com/ysh-rael/percentage-api.git
 
 
 ## How to use
- 
+ The API has two routes <code>/transformbyobj</code> and <code>/transformbyurl</code> which can be called via a POST request.
 ....<br>
-<imagem obj>
+> **/transformbyobj**<br>
+Receive an object in JSON via the request body. It keeps the keys inside the object just by changing the value to the corresponding percentage.
 ![print_percentage-api-obj](https://user-images.githubusercontent.com/79410863/212818106-a223f1ec-8774-4399-a99a-54d94a44c082.png)
 
-....<br>
-<imagem url>
+
+> **/transformbyurl**<br>
+> Receives an object or JSON via the body of the POST request containing:
+<code>{ "url": "https://*.com/"} </code>
+returning the value of the GET request made to the requested URL. A JSON is expected as a response.<br>
+> *You must contain a key called "url" in the request body.*
 ![print_percentage-api-url](https://user-images.githubusercontent.com/79410863/212818196-9558789c-8286-44ba-be52-3fcf8b9f5351.png)
 
 
