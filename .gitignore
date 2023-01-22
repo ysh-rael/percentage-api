@@ -42,7 +42,6 @@ node_modules/
 jspm_packages/
 package-lock.json
 webpack.config.js
-dev.js
 
 # TypeScript v1 declaration files
 typings/

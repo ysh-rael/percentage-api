@@ -1,12 +1,11 @@
 import Express from 'express'
-import {$transformByObj, $transformByURL} from './dist/main.js'
+import {$transformByObj, $transformByURL} from './routers/main.js'
 
 const port = process.env.port || 3006
 const app = Express()
 app.use(Express.json())
 
 app.post('/transformbyobj', $transformByObj)
-app.get('/transformbyobj', {W: ""})
 app.post('/transformbyurl', $transformByURL)
 app.get('/', (req,res) => res.send({}))
 
