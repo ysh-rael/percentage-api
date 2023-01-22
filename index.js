@@ -6,6 +6,7 @@ const app = Express()
 app.use(Express.json())
 
 app.post('/transformbyobj', $transformByObj)
+app.get('/transformbyobj', {W: ""})
 app.post('/transformbyurl', $transformByURL)
 app.get('/', (req,res) => res.send({}))
 
