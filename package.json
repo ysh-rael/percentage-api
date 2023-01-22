@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "start:dev": "node dev.js",
-    "start:dev-nodemon": "nodemon dev.js",
+    "start:dev": "node index.js",
+    "start:dev-nodemon": "nodemon index.js",
     "build": "gulp"
   },
   "type": "module",
